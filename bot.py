@@ -1,9 +1,9 @@
 import aioschedule
 import pandas
 from datetime import date
-from aiogram import Bot, Dispatcher, types
+from aiogram import Bot, Dispatcher
 import logging
-from aiogram.utils import executor, exceptions
+from aiogram.utils import executor
 import asyncio
 
 from get_file import get_file
