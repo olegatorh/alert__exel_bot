@@ -45,8 +45,7 @@ async def work_procces():
             await send_message(f'all okay Person: {current_person_data[1]}\nchecked:  {current_person_data[2]}!')
 
     except KeyError:
-        await send_message('CAACAgIAAxkBAAEF9QJjNheosGgjTU7K_wEvUQE_nFEdvAACAhkAArRSWEqVzrViqq9ZyioE', 'sticker')   # sticker and type of message
-        await send_message('current date not found')
+        print('current date not found')
 
 
 async def send_message(data, type='message', chatId='here must be chat_id'):  # fill in the chat id with your chat id
